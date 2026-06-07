@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/vue-sfc/',
+  base: '/vue-hw5/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
